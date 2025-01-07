@@ -22,6 +22,7 @@ description: "It really is the best."
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://boss489.github.io
 logo: # path of site logo, e.g. "/images/logo.png"
+repository: boss489/boss489.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 date_format: "%B %-d, %Y"
 read_time: # reading time estimates, e.g. true
 words_per_minute: # 200
