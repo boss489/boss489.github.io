@@ -17,8 +17,8 @@
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/light.css"
 locale: en-US
-title: "My Awesome Site"
-description: "It really is the best."
+title: "생존을 위한 기록"
+description: "backend"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://boss489.github.io
 logo: # path of site logo, e.g. "/images/logo.png"
