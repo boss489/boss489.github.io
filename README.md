@@ -59,6 +59,10 @@ Additional [sample posts](https://mmistakes.github.io/so-simple-theme/posts/) ca
 
 If you're running Jekyll v3.5+ and self-hosting you can quickly install the theme as a Ruby gem. If you're hosting with [**GitHub Pages**](https://pages.github.com/) you can install as a [remote theme](https://github.com/benbalter/jekyll-remote-theme) or directly copy all of the theme files (see [structure](#structure) below) into your project.
 
+### Simple launch in Local
+bundle exec jekyll serve
+
+#### default address // localhost:4000 
 ### Ruby Gem Method
 
 1. Add this line to your Jekyll site's `Gemfile` (or [create one](example/Gemfile)):
@@ -1206,6 +1210,8 @@ Lunr is distributed under the terms of the [MIT License](http://opensource.org/l
 So Simple incorporates [Lity](http://sorgalla.com/lity/),
 Copyright (c) 2015-2016, Jan Sorgalla.
 Lity is distributed under the terms of the MIT License](http://opensource.org/licenses/MIT).
+
+
 
 So Simple incorporates [Table of Contents Toggle](https://github.com/smithtimmytim/brightlycolored.org),
 Copyright (c) 2017 Timothy B. Smith.

@@ -2,6 +2,7 @@ _asset_bundler_cache
 _site
 .bundle
 .DS_Store
+.idea
 .jekyll-cache
 .jekyll-metadata
 .sass-cache
