@@ -16,7 +16,7 @@
 # theme: jekyll-theme-so-simple
 # remote_theme: mmistakes/so-simple-theme
 skin: "/assets/css/skins/light.css"
-locale: en-US
+locale: ko-KR
 title: "백엔드 개발자의 성장 기록"
 description: "Java 백엔드 개발자로서의 여정과 기술적 관심사를 공유합니다."
 baseurl: # the subpath of your site, e.g. "/blog"
