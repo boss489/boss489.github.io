@@ -22,7 +22,7 @@ description: "Java 백엔드 개발자로서의 여정과 기술적 관심사를
 baseurl: # the subpath of your site, e.g. "/blog"
 url: https://boss489.github.io
 #url: http://localhost:4000
-logo: # path of site logo, e.g. "/images/logo.png"
+logo: /images/avatar.png
 repository: boss489/boss489.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 date_format: "%B %-d, %Y"
 read_time: true
