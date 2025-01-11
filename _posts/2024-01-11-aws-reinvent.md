@@ -1,3 +1,13 @@
+---
+title: "AWS re:Invent 2024"
+categories:
+  - etc
+tags:
+  - etc
+last_modified_at: 2025-01-10T06:31:52-07:00
+---
+
+
 # AWS re:Invent 2024 메모
 
 ## 1차: compute
