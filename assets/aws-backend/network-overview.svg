@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="640" viewBox="0 0 1120 640" role="img" aria-labelledby="title desc">
+  <title id="title">AWS VPC backend network overview</title>
+  <desc id="desc">Internet traffic enters through an internet gateway and public subnets, reaches an ALB, then private application and database subnets.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .box { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 8; }
+      .vpc { fill: #f8fafc; stroke: #0f172a; stroke-width: 3; rx: 12; }
+      .public { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; rx: 8; }
+      .private { fill: #dcfce7; stroke: #15803d; stroke-width: 2; rx: 8; }
+      .data { fill: #fef3c7; stroke: #b45309; stroke-width: 2; rx: 8; }
+      .label { font-size: 22px; font-weight: 700; }
+      .small { font-size: 17px; }
+      .line { stroke: #334155; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect x="40" y="70" width="1040" height="520" class="vpc"/>
+  <text x="70" y="110" class="label">VPC 10.0.0.0/16</text>
+
+  <rect x="90" y="160" width="250" height="320" class="public"/>
+  <text x="118" y="198" class="label">Public Subnet</text>
+  <text x="118" y="228" class="small">ALB, NAT Gateway</text>
+
+  <rect x="435" y="160" width="250" height="320" class="private"/>
+  <text x="463" y="198" class="label">Private Subnet</text>
+  <text x="463" y="228" class="small">ECS / EC2</text>
+
+  <rect x="780" y="160" width="250" height="320" class="data"/>
+  <text x="808" y="198" class="label">Data Subnet</text>
+  <text x="808" y="228" class="small">RDS, Redis</text>
+
+  <rect x="120" y="285" width="190" height="70" class="box"/>
+  <text x="170" y="328" class="label">ALB</text>
+
+  <rect x="465" y="285" width="190" height="70" class="box"/>
+  <text x="492" y="328" class="label">Spring Boot</text>
+
+  <rect x="810" y="285" width="190" height="70" class="box"/>
+  <text x="850" y="328" class="label">Aurora</text>
+
+  <rect x="120" y="395" width="190" height="50" class="box"/>
+  <text x="160" y="428" class="small">NAT Gateway</text>
+
+  <rect x="430" y="35" width="260" height="60" class="box"/>
+  <text x="482" y="73" class="label">Internet</text>
+
+  <rect x="430" y="115" width="260" height="50" class="box"/>
+  <text x="470" y="147" class="small">Internet Gateway</text>
+
+  <path d="M560 95 L560 115" class="line"/>
+  <path d="M430 140 C330 145 250 200 215 285" class="line"/>
+  <path d="M310 320 L465 320" class="line"/>
+  <path d="M655 320 L810 320" class="line"/>
+  <path d="M465 420 L310 420" class="line"/>
+  <path d="M215 395 C260 255 390 165 430 140" class="line"/>
+</svg>

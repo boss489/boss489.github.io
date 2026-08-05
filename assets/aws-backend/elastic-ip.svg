@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="440" viewBox="0 0 1120 440" role="img" aria-labelledby="title desc">
+  <title id="title">Elastic IP used as NAT Gateway outbound address</title>
+  <desc id="desc">Private application servers call an external API through a NAT Gateway that has an Elastic IP.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .box { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 8; }
+      .private { fill: #dcfce7; stroke: #15803d; stroke-width: 2; rx: 8; }
+      .public { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; rx: 8; }
+      .external { fill: #fef3c7; stroke: #b45309; stroke-width: 2; rx: 8; }
+      .label { font-size: 22px; font-weight: 700; }
+      .small { font-size: 17px; }
+      .line { stroke: #334155; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <text x="70" y="55" class="label">Elastic IP gives a stable outbound IP</text>
+
+  <rect x="80" y="115" width="260" height="210" class="private"/>
+  <text x="115" y="155" class="label">Private Subnet</text>
+  <rect x="115" y="210" width="190" height="60" class="box"/>
+  <text x="155" y="248" class="small">Spring Boot</text>
+
+  <rect x="430" y="115" width="260" height="210" class="public"/>
+  <text x="465" y="155" class="label">Public Subnet</text>
+  <rect x="465" y="200" width="190" height="70" class="box"/>
+  <text x="508" y="228" class="small">NAT Gateway</text>
+  <text x="490" y="253" class="small">EIP 3.34.x.x</text>
+
+  <rect x="780" y="115" width="260" height="210" class="external"/>
+  <text x="835" y="155" class="label">External API</text>
+  <rect x="815" y="210" width="190" height="60" class="box"/>
+  <text x="846" y="248" class="small">Allowlist IP</text>
+
+  <path d="M305 240 L465 240" class="line"/>
+  <path d="M655 240 L815 240" class="line"/>
+  <text x="370" y="225" class="small">outbound</text>
+  <text x="708" y="225" class="small">fixed IP</text>
+</svg>

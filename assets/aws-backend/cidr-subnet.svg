@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">CIDR split into AWS subnets</title>
+  <desc id="desc">A VPC CIDR block is split into public, private, and database subnets across two availability zones.</desc>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #0f172a; }
+    .vpc { fill: #f8fafc; stroke: #0f172a; stroke-width: 3; rx: 12; }
+    .az { fill: #ffffff; stroke: #64748b; stroke-width: 2; rx: 8; }
+    .public { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; rx: 8; }
+    .private { fill: #dcfce7; stroke: #15803d; stroke-width: 2; rx: 8; }
+    .db { fill: #fef3c7; stroke: #b45309; stroke-width: 2; rx: 8; }
+    .label { font-size: 22px; font-weight: 700; }
+    .small { font-size: 17px; }
+  </style>
+
+  <rect x="40" y="55" width="1040" height="410" class="vpc"/>
+  <text x="70" y="98" class="label">VPC CIDR: 10.0.0.0/16</text>
+  <text x="70" y="128" class="small">큰 IP 범위를 역할과 AZ 기준으로 나눈다.</text>
+
+  <rect x="90" y="170" width="450" height="250" class="az"/>
+  <text x="120" y="207" class="label">ap-northeast-2a</text>
+
+  <rect x="580" y="170" width="450" height="250" class="az"/>
+  <text x="610" y="207" class="label">ap-northeast-2c</text>
+
+  <rect x="125" y="240" width="370" height="45" class="public"/>
+  <text x="150" y="269" class="small">Public Subnet 10.0.1.0/24</text>
+  <rect x="125" y="300" width="370" height="45" class="private"/>
+  <text x="150" y="329" class="small">Private Subnet 10.0.11.0/24</text>
+  <rect x="125" y="360" width="370" height="45" class="db"/>
+  <text x="150" y="389" class="small">DB Subnet 10.0.21.0/24</text>
+
+  <rect x="615" y="240" width="370" height="45" class="public"/>
+  <text x="640" y="269" class="small">Public Subnet 10.0.2.0/24</text>
+  <rect x="615" y="300" width="370" height="45" class="private"/>
+  <text x="640" y="329" class="small">Private Subnet 10.0.12.0/24</text>
+  <rect x="615" y="360" width="370" height="45" class="db"/>
+  <text x="640" y="389" class="small">DB Subnet 10.0.22.0/24</text>
+</svg>

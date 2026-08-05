@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="610" viewBox="0 0 1120 610" role="img" aria-labelledby="title desc">
+  <title id="title">Public and private subnet route table flow</title>
+  <desc id="desc">Public subnet default route goes to an internet gateway. Private subnet default route goes to a NAT gateway.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .box { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 8; }
+      .public { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; rx: 8; }
+      .private { fill: #dcfce7; stroke: #15803d; stroke-width: 2; rx: 8; }
+      .label { font-size: 22px; font-weight: 700; }
+      .small { font-size: 17px; }
+      .line { stroke: #334155; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <text x="70" y="60" class="label">Route Table decides whether a subnet is public or private</text>
+
+  <rect x="80" y="115" width="420" height="360" class="public"/>
+  <text x="110" y="155" class="label">Public Subnet Route Table</text>
+  <rect x="120" y="190" width="340" height="70" class="box"/>
+  <text x="145" y="220" class="small">10.0.0.0/16 -> local</text>
+  <text x="145" y="245" class="small">0.0.0.0/0 -> Internet Gateway</text>
+  <rect x="170" y="335" width="240" height="65" class="box"/>
+  <text x="225" y="375" class="label">ALB</text>
+
+  <rect x="620" y="115" width="420" height="360" class="private"/>
+  <text x="650" y="155" class="label">Private Subnet Route Table</text>
+  <rect x="660" y="190" width="340" height="70" class="box"/>
+  <text x="685" y="220" class="small">10.0.0.0/16 -> local</text>
+  <text x="685" y="245" class="small">0.0.0.0/0 -> NAT Gateway</text>
+  <rect x="710" y="335" width="240" height="65" class="box"/>
+  <text x="765" y="375" class="label">ECS Task</text>
+
+  <rect x="440" y="520" width="240" height="55" class="box"/>
+  <text x="490" y="555" class="small">Internet Gateway</text>
+
+  <rect x="440" y="430" width="240" height="55" class="box"/>
+  <text x="500" y="465" class="small">NAT Gateway</text>
+
+  <path d="M290 335 C310 255 390 270 440 520" class="line"/>
+  <path d="M830 335 C760 455 700 455 680 455" class="line"/>
+  <path d="M560 430 L560 575" class="line"/>
+</svg>
