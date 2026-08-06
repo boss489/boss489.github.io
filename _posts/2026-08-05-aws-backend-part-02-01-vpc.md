@@ -1,5 +1,6 @@
 ---
 title: "Chapter 01. VPC"
+date: 2026-08-05T09:25:00+09:00
 categories:
   - aws
 tags:
@@ -52,7 +53,7 @@ EC2, ECS, RDS, ElastiCache와 같은 대부분의 AWS 리소스는 VPC 안에서
 
 다음 그림처럼 하나의 VPC 안에 여러 리소스가 배치된다.
 
-![VPC overview](/assets/aws-backend/network-overview.svg)
+![VPC overview](/assets/aws-backend/network-overview.png)
 
 VPC를 만들면 다음과 같은 요소들을 구성할 수 있다.
 

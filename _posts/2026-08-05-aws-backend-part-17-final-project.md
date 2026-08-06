@@ -1,5 +1,6 @@
 ---
 title: "Part 17. Final Project"
+date: 2026-08-05T09:00:00+09:00
 categories:
   - aws
 tags:

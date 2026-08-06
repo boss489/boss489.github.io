@@ -1,5 +1,6 @@
 ---
 title: "Part 11. Monitoring"
+date: 2026-08-05T09:06:00+09:00
 categories:
   - aws
 tags:

@@ -1,5 +1,6 @@
 ---
 title: "Chapter 04. Route Table"
+date: 2026-08-05T09:22:00+09:00
 categories:
   - aws
 tags:
@@ -16,7 +17,7 @@ Route Table은 Subnet에서 나가는 트래픽이 어디로 가야 하는지 �
 
 Subnet이 Public인지 Private인지는 이름이 아니라 Route Table로 결정된다.
 
-![Route table flow](/assets/aws-backend/route-table.svg)
+![Route table flow](/assets/aws-backend/route-table.png)
 
 ---
 

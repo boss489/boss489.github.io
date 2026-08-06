@@ -1,5 +1,6 @@
 ---
 title: "Chapter 08. NACL"
+date: 2026-08-05T09:18:00+09:00
 categories:
   - aws
 tags:
@@ -16,7 +17,7 @@ NACL(Network Access Control List)은 Subnet 단위로 적용되는 네트워크 
 
 Security Group이 리소스 단위라면, NACL은 Subnet 단위다.
 
-![Security controls](/assets/aws-backend/security-controls.svg)
+![Security controls](/assets/aws-backend/security-controls.png)
 
 ---
 

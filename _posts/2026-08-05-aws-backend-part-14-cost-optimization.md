@@ -1,5 +1,6 @@
 ---
 title: "Part 14. Cost Optimization"
+date: 2026-08-05T09:03:00+09:00
 categories:
   - aws
 tags:

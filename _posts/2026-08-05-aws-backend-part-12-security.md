@@ -1,5 +1,6 @@
 ---
 title: "Part 12. Security"
+date: 2026-08-05T09:05:00+09:00
 categories:
   - aws
 tags:

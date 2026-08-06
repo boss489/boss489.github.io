@@ -1,5 +1,6 @@
 ---
 title: "Chapter 05. Internet Gateway"
+date: 2026-08-05T09:21:00+09:00
 categories:
   - aws
 tags:
@@ -16,7 +17,7 @@ Internet Gateway는 VPC가 인터넷과 통신할 수 있게 해주는 AWS 리�
 
 VPC에 연결하고, Route Table에서 대상으로 지정해야 실제로 동작한다.
 
-![Route table flow](/assets/aws-backend/route-table.svg)
+![Route table flow](/assets/aws-backend/route-table.png)
 
 ---
 

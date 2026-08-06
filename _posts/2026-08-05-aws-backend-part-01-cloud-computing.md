@@ -1,5 +1,6 @@
 ---
 title: "Part 1. Cloud Computing"
+date: 2026-08-05T09:27:00+09:00
 categories:
   - aws
 tags:

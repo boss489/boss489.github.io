@@ -1,5 +1,6 @@
 ---
 title: "Part 3. Compute"
+date: 2026-08-05T09:14:00+09:00
 categories:
   - aws
 tags:

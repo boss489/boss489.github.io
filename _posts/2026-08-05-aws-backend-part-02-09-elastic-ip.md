@@ -1,5 +1,6 @@
 ---
 title: "Chapter 09. Elastic IP"
+date: 2026-08-05T09:17:00+09:00
 categories:
   - aws
 tags:
@@ -16,7 +17,7 @@ Elastic IP는 AWS에서 사용하는 고정 Public IPv4 주소다.
 
 EC2나 NAT Gateway처럼 고정 IP가 필요한 리소스에 연결한다.
 
-![Elastic IP with NAT Gateway](/assets/aws-backend/elastic-ip.svg)
+![Elastic IP with NAT Gateway](/assets/aws-backend/elastic-ip.png)
 
 ---
 

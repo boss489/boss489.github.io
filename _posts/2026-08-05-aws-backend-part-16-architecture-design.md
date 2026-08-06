@@ -1,5 +1,6 @@
 ---
 title: "Part 16. Architecture Design"
+date: 2026-08-05T09:01:00+09:00
 categories:
   - aws
 tags:

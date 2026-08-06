@@ -1,5 +1,6 @@
 ---
 title: "Part 4. Request Flow"
+date: 2026-08-05T09:13:00+09:00
 categories:
   - aws
 tags:

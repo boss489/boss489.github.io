@@ -1,5 +1,6 @@
 ---
 title: "Part 7. Object Storage"
+date: 2026-08-05T09:10:00+09:00
 categories:
   - aws
 tags:

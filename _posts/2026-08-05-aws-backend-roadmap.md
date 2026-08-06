@@ -1,5 +1,6 @@
 ---
 title: "AWS for Backend Developer - Roadmap"
+date: 2026-08-05T09:29:00+09:00
 categories:
   - aws
 tags:
@@ -92,15 +93,15 @@ AWS 서비스가 동작하는 네트워크 구조를 이해한다.
 
 ### 학습 내용
 
-- [VPC](/aws/aws-backend-vpc/)
-- [CIDR](/aws/aws-backend-cidr/)
-- [Subnet](/aws/aws-backend-subnet/)
-- [Route Table](/aws/aws-backend-route-table/)
-- [Internet Gateway](/aws/aws-backend-internet-gateway/)
-- [NAT Gateway](/aws/aws-backend-nat-gateway/)
-- [Security Group](/aws/aws-backend-security-group/)
-- [NACL](/aws/aws-backend-nacl/)
-- [Elastic IP](/aws/aws-backend-elastic-ip/)
+- [VPC](/aws/aws-backend-part-02-01-vpc/)
+- [CIDR](/aws/aws-backend-part-02-02-cidr/)
+- [Subnet](/aws/aws-backend-part-02-03-subnet/)
+- [Route Table](/aws/aws-backend-part-02-04-route-table/)
+- [Internet Gateway](/aws/aws-backend-part-02-05-internet-gateway/)
+- [NAT Gateway](/aws/aws-backend-part-02-06-nat-gateway/)
+- [Security Group](/aws/aws-backend-part-02-07-security-group/)
+- [NACL](/aws/aws-backend-part-02-08-nacl/)
+- [Elastic IP](/aws/aws-backend-part-02-09-elastic-ip/)
 
 ---
 

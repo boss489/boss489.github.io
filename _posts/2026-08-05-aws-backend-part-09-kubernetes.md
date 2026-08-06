@@ -1,5 +1,6 @@
 ---
 title: "Part 9. Kubernetes"
+date: 2026-08-05T09:08:00+09:00
 categories:
   - aws
 tags:

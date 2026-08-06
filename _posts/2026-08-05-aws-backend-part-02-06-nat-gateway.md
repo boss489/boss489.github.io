@@ -1,5 +1,6 @@
 ---
 title: "Chapter 06. NAT Gateway"
+date: 2026-08-05T09:20:00+09:00
 categories:
   - aws
 tags:
@@ -16,7 +17,7 @@ NAT Gateway는 Private Subnet의 리소스가 인터넷으로 나갈 수 있게 
 
 반대로 인터넷에서 Private Subnet으로 직접 들어오는 요청은 허용하지 않는다.
 
-![Route table flow](/assets/aws-backend/route-table.svg)
+![Route table flow](/assets/aws-backend/route-table.png)
 
 ---
 

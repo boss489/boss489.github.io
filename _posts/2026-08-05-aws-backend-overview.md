@@ -1,5 +1,6 @@
 ---
 title: "AWS for Backend Developer - Overview"
+date: 2026-08-05T09:28:00+09:00
 categories:
   - aws
 tags:

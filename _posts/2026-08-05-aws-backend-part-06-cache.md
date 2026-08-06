@@ -1,5 +1,6 @@
 ---
 title: "Part 6. Cache"
+date: 2026-08-05T09:11:00+09:00
 categories:
   - aws
 tags:

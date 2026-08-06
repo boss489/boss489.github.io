@@ -1,5 +1,6 @@
 ---
 title: "Chapter 10. Part 2 Summary"
+date: 2026-08-05T09:16:00+09:00
 categories:
   - aws
 tags:
@@ -14,7 +15,7 @@ last_modified_at: 2026-08-05T09:00:00+09:00
 
 Part 2의 핵심은 VPC 안에서 트래픽 흐름을 설명할 수 있는 것이다.
 
-![VPC overview](/assets/aws-backend/network-overview.svg)
+![VPC overview](/assets/aws-backend/network-overview.png)
 
 ---
 

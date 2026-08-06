@@ -1,5 +1,6 @@
 ---
 title: "Chapter 03. Subnet"
+date: 2026-08-05T09:23:00+09:00
 categories:
   - aws
 tags:
@@ -16,7 +17,7 @@ Subnet은 VPC 안의 IP 범위를 더 작게 나눈 네트워크다.
 
 AWS 리소스는 VPC에 직접 배치되는 것이 아니라 보통 특정 Subnet에 배치된다.
 
-![CIDR and subnet split](/assets/aws-backend/cidr-subnet.svg)
+![CIDR and subnet split](/assets/aws-backend/cidr-subnet.png)
 
 ---
 

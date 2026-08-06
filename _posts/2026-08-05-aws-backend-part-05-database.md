@@ -1,5 +1,6 @@
 ---
 title: "Part 5. Database"
+date: 2026-08-05T09:12:00+09:00
 categories:
   - aws
 tags:

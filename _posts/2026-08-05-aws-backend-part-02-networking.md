@@ -1,5 +1,6 @@
 ---
 title: "Part 2. AWS Networking"
+date: 2026-08-05T09:26:00+09:00
 categories:
   - aws
 tags:

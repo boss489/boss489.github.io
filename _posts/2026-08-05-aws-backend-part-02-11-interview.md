@@ -1,5 +1,6 @@
 ---
 title: "Chapter 11. Interview Questions"
+date: 2026-08-05T09:15:00+09:00
 categories:
   - aws
 tags:

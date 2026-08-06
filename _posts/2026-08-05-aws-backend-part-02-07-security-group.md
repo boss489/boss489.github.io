@@ -1,5 +1,6 @@
 ---
 title: "Chapter 07. Security Group"
+date: 2026-08-05T09:19:00+09:00
 categories:
   - aws
 tags:
@@ -16,7 +17,7 @@ Security Group은 EC2, ALB, RDS 같은 리소스에 붙는 가상 방화벽이�
 
 인바운드와 아웃바운드 트래픽을 제어한다.
 
-![Security controls](/assets/aws-backend/security-controls.svg)
+![Security controls](/assets/aws-backend/security-controls.png)
 
 ---
 

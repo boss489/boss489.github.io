@@ -1,5 +1,6 @@
 ---
 title: "Part 13. CI/CD"
+date: 2026-08-05T09:04:00+09:00
 categories:
   - aws
 tags:

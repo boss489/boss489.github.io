@@ -1,5 +1,6 @@
 ---
 title: "Chapter 02. CIDR"
+date: 2026-08-05T09:24:00+09:00
 categories:
   - aws
 tags:
@@ -16,7 +17,7 @@ CIDR(Classless Inter-Domain Routing)은 IP 주소 범위를 표현하는 방식�
 
 AWS에서는 VPC와 Subnet의 IP 대역을 CIDR로 지정한다.
 
-![CIDR and subnet split](/assets/aws-backend/cidr-subnet.svg)
+![CIDR and subnet split](/assets/aws-backend/cidr-subnet.png)
 
 ---
 
