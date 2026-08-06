@@ -7,6 +7,8 @@
  - title: Categories
    url: /categories/
    children:
+     - title: All Categories
+       url: /categories/
      - title: AWS Backend
        url: /aws-backend/
      - title: Kafka

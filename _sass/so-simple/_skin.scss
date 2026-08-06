@@ -72,10 +72,6 @@ blockquote {
     background-color: $nav-background-color;
   }
 
-  .has-children > ul {
-    border-left-color: mix($nav-color, $nav-background-color, 30%);
-  }
-
   a {
     color: $nav-color;
     border-color: $nav-background-color;

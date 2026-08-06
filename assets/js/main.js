@@ -9,6 +9,13 @@ $(document).ready(function() {
     });
   }
 
+  $(".site-nav .has-children > a").on("click", function(event) {
+    if (window.matchMedia("(max-width: 47.99em)").matches) {
+      event.preventDefault();
+      $(this).parent().toggleClass("is-open");
+    }
+  });
+
   // initialize smooth scroll
   $("a").smoothScroll({ offset: -20 });
 
