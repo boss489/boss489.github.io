@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Cloud computing evolution</title>
+  <desc id="desc">Infrastructure evolves from on-premise servers to virtualization and cloud computing.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #0f172a; }
+      .title { font-size: 24px; font-weight: 700; }
+      .label { font-size: 21px; font-weight: 700; }
+      .small { font-size: 17px; }
+      .box { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 8; }
+      .stage1 { fill: #fee2e2; stroke: #b91c1c; stroke-width: 2; rx: 8; }
+      .stage2 { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; rx: 8; }
+      .stage3 { fill: #dcfce7; stroke: #15803d; stroke-width: 2; rx: 8; }
+      .line { stroke: #334155; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <text x="70" y="60" class="title">Why cloud computing emerged</text>
+  <rect x="80" y="120" width="260" height="270" class="stage1"/>
+  <text x="120" y="165" class="label">On-Premise</text>
+  <rect x="120" y="210" width="180" height="45" class="box"/>
+  <text x="155" y="239" class="small">Physical Server</text>
+  <rect x="120" y="275" width="180" height="45" class="box"/>
+  <text x="145" y="304" class="small">Rack / Power</text>
+  <text x="115" y="355" class="small">Slow provisioning</text>
+  <text x="115" y="380" class="small">Large upfront cost</text>
+  <rect x="430" y="120" width="260" height="270" class="stage2"/>
+  <text x="470" y="165" class="label">Virtualization</text>
+  <rect x="475" y="210" width="170" height="45" class="box"/>
+  <text x="520" y="239" class="small">VM</text>
+  <rect x="475" y="270" width="170" height="45" class="box"/>
+  <text x="505" y="299" class="small">Hypervisor</text>
+  <text x="465" y="355" class="small">Better utilization</text>
+  <text x="465" y="380" class="small">Resource isolation</text>
+  <rect x="780" y="120" width="260" height="270" class="stage3"/>
+  <text x="835" y="165" class="label">Cloud</text>
+  <rect x="825" y="210" width="170" height="45" class="box"/>
+  <text x="865" y="239" class="small">On demand</text>
+  <rect x="825" y="270" width="170" height="45" class="box"/>
+  <text x="858" y="299" class="small">Managed APIs</text>
+  <text x="820" y="355" class="small">Elastic capacity</text>
+  <text x="820" y="380" class="small">Pay as you go</text>
+  <path d="M340 255 L430 255" class="line"/>
+  <path d="M690 255 L780 255" class="line"/>
+</svg>

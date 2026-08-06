@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">S3 file service with CloudFront</title>
+  <desc id="desc">The browser uploads files to S3 using a presigned URL and downloads content through CloudFront.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#334155"/></marker><style>text{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.title{font-size:24px;font-weight:700}.label{font-size:21px;font-weight:700}.small{font-size:17px}.box{fill:#fff;stroke:#334155;stroke-width:2;rx:8}.app{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:8}.store{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:8}.cdn{fill:#e0f2fe;stroke:#0369a1;stroke-width:2;rx:8}.line{stroke:#334155;stroke-width:2.5;fill:none;marker-end:url(#arrow)}</style></defs>
+  <text x="70" y="60" class="title">S3 file upload and delivery</text>
+  <rect x="80" y="220" width="160" height="80" class="box"/><text x="120" y="268" class="label">Browser</text>
+  <rect x="320" y="140" width="210" height="90" class="app"/><text x="365" y="178" class="label">Spring Boot</text><text x="365" y="205" class="small">presigned URL</text>
+  <rect x="610" y="220" width="210" height="90" class="store"/><text x="705" y="258" class="label">S3</text><text x="675" y="285" class="small">Bucket/Object</text>
+  <rect x="610" y="355" width="210" height="80" class="cdn"/><text x="660" y="403" class="label">CloudFront</text>
+  <path d="M240 245 C280 190 290 185 320 185" class="line"/><path d="M240 275 L610 265" class="line"/><path d="M820 395 C910 370 940 300 820 275" class="line"/>
+</svg>

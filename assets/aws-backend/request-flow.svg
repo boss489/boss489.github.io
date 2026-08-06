@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Request flow to backend API</title>
+  <desc id="desc">A user request reaches Spring Boot through DNS, Route 53, ALB, target group, and EC2 or ECS tasks.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#334155"/></marker><style>text{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.title{font-size:24px;font-weight:700}.label{font-size:21px;font-weight:700}.small{font-size:17px}.box{fill:#fff;stroke:#334155;stroke-width:2;rx:8}.net{fill:#e0f2fe;stroke:#0369a1;stroke-width:2;rx:8}.app{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:8}.line{stroke:#334155;stroke-width:2.5;fill:none;marker-end:url(#arrow)}</style></defs>
+  <text x="70" y="60" class="title">Internet request flow</text>
+  <rect x="70" y="210" width="160" height="80" class="box"/><text x="115" y="258" class="label">User</text>
+  <rect x="290" y="210" width="160" height="80" class="net"/><text x="340" y="245" class="label">DNS</text><text x="322" y="272" class="small">Route 53</text>
+  <rect x="510" y="210" width="160" height="80" class="net"/><text x="552" y="245" class="label">ALB</text><text x="535" y="272" class="small">Listener</text>
+  <rect x="730" y="210" width="160" height="80" class="net"/><text x="755" y="245" class="label">Target Group</text><text x="755" y="272" class="small">Health Check</text>
+  <rect x="950" y="210" width="120" height="80" class="app"/><text x="970" y="245" class="label">Spring</text><text x="980" y="272" class="small">Boot</text>
+  <path d="M230 250 L290 250" class="line"/><path d="M450 250 L510 250" class="line"/><path d="M670 250 L730 250" class="line"/><path d="M890 250 L950 250" class="line"/>
+</svg>

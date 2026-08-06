@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Serverless event flow</title>
+  <desc id="desc">API Gateway and EventBridge invoke Lambda functions that use DynamoDB and Step Functions.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#334155"/></marker><style>text{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.title{font-size:24px;font-weight:700}.label{font-size:21px;font-weight:700}.small{font-size:17px}.api{fill:#e0f2fe;stroke:#0369a1;stroke-width:2;rx:8}.fn{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:8}.data{fill:#fef3c7;stroke:#b45309;stroke-width:2;rx:8}.line{stroke:#334155;stroke-width:2.5;fill:none;marker-end:url(#arrow)}</style></defs>
+  <text x="70" y="60" class="title">Serverless API and event workflow</text>
+  <rect x="80" y="165" width="190" height="80" class="api"/><text x="115" y="213" class="label">API Gateway</text>
+  <rect x="80" y="305" width="190" height="80" class="api"/><text x="125" y="353" class="label">EventBridge</text>
+  <rect x="420" y="235" width="190" height="90" class="fn"/><text x="475" y="288" class="label">Lambda</text>
+  <rect x="760" y="165" width="220" height="80" class="data"/><text x="815" y="213" class="label">DynamoDB</text>
+  <rect x="760" y="305" width="220" height="80" class="data"/><text x="805" y="353" class="label">Step Functions</text>
+  <path d="M270 205 C340 210 360 245 420 265" class="line"/><path d="M270 345 C340 340 360 315 420 295" class="line"/><path d="M610 265 C675 240 700 215 760 205" class="line"/><path d="M610 295 C675 320 700 340 760 345" class="line"/>
+</svg>

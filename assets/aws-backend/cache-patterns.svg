@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Redis cache patterns</title>
+  <desc id="desc">Spring Boot reads cache first, falls back to database, and writes data with TTL to Redis.</desc>
+  <defs><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0 0 L10 5 L0 10z" fill="#334155"/></marker><style>text{font-family:Arial,Helvetica,sans-serif;fill:#0f172a}.title{font-size:24px;font-weight:700}.label{font-size:21px;font-weight:700}.small{font-size:17px}.app{fill:#dcfce7;stroke:#15803d;stroke-width:2;rx:8}.cache{fill:#fee2e2;stroke:#b91c1c;stroke-width:2;rx:8}.db{fill:#e0f2fe;stroke:#0369a1;stroke-width:2;rx:8}.line{stroke:#334155;stroke-width:2.5;fill:none;marker-end:url(#arrow)}</style></defs>
+  <text x="70" y="60" class="title">Cache Aside with Redis</text>
+  <rect x="100" y="220" width="210" height="90" class="app"/><text x="145" y="272" class="label">Spring Boot</text>
+  <rect x="455" y="140" width="210" height="90" class="cache"/><text x="530" y="192" class="label">Redis</text>
+  <rect x="455" y="325" width="210" height="90" class="db"/><text x="535" y="377" class="label">RDS</text>
+  <rect x="810" y="220" width="210" height="90" class="cache"/><text x="875" y="258" class="label">TTL</text><text x="850" y="285" class="small">stale data limit</text>
+  <path d="M310 250 C365 200 390 185 455 185" class="line"/><path d="M455 205 C385 235 360 255 310 265" class="line"/><path d="M310 285 C370 330 390 370 455 370" class="line"/><path d="M665 185 C735 190 760 230 810 250" class="line"/>
+</svg>

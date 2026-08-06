@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="500" viewBox="0 0 1120 500" role="img" aria-labelledby="title desc">
+  <title id="title">Shared responsibility model</title>
+  <desc id="desc">AWS is responsible for security of the cloud; customers are responsible for security in the cloud.</desc>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #0f172a; }
+    .title { font-size: 24px; font-weight: 700; }
+    .label { font-size: 21px; font-weight: 700; }
+    .small { font-size: 17px; }
+    .aws { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; rx: 8; }
+    .customer { fill: #dcfce7; stroke: #15803d; stroke-width: 2; rx: 8; }
+    .box { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 8; }
+  </style>
+  <text x="70" y="60" class="title">Security is shared between AWS and the customer</text>
+  <rect x="90" y="115" width="430" height="300" class="aws"/>
+  <text x="135" y="160" class="label">AWS: Security of the Cloud</text>
+  <rect x="135" y="195" width="340" height="45" class="box"/>
+  <text x="210" y="224" class="small">Data centers</text>
+  <rect x="135" y="255" width="340" height="45" class="box"/>
+  <text x="205" y="284" class="small">Hardware and network</text>
+  <rect x="135" y="315" width="340" height="45" class="box"/>
+  <text x="215" y="344" class="small">Managed foundations</text>
+  <rect x="600" y="115" width="430" height="300" class="customer"/>
+  <text x="645" y="160" class="label">Customer: Security in the Cloud</text>
+  <rect x="645" y="195" width="340" height="45" class="box"/>
+  <text x="755" y="224" class="small">IAM</text>
+  <rect x="645" y="255" width="340" height="45" class="box"/>
+  <text x="735" y="284" class="small">Network rules</text>
+  <rect x="645" y="315" width="340" height="45" class="box"/>
+  <text x="710" y="344" class="small">Data and application</text>
+</svg>

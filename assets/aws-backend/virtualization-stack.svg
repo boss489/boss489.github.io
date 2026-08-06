@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="520" viewBox="0 0 1120 520" role="img" aria-labelledby="title desc">
+  <title id="title">Virtualization stack</title>
+  <desc id="desc">Hypervisor shares one physical server across multiple virtual machines.</desc>
+  <style>
+    text { font-family: Arial, Helvetica, sans-serif; fill: #0f172a; }
+    .title { font-size: 24px; font-weight: 700; }
+    .label { font-size: 21px; font-weight: 700; }
+    .small { font-size: 17px; }
+    .box { fill: #ffffff; stroke: #334155; stroke-width: 2; rx: 8; }
+    .vm { fill: #e0f2fe; stroke: #0369a1; stroke-width: 2; rx: 8; }
+    .hypervisor { fill: #dcfce7; stroke: #15803d; stroke-width: 2; rx: 8; }
+    .host { fill: #fef3c7; stroke: #b45309; stroke-width: 2; rx: 8; }
+  </style>
+  <text x="70" y="60" class="title">Virtualization separates software from hardware</text>
+  <rect x="90" y="120" width="280" height="155" class="vm"/>
+  <text x="125" y="160" class="label">VM 1</text>
+  <rect x="125" y="185" width="210" height="38" class="box"/>
+  <text x="178" y="210" class="small">Guest OS</text>
+  <text x="135" y="250" class="small">Spring Boot</text>
+  <rect x="420" y="120" width="280" height="155" class="vm"/>
+  <text x="455" y="160" class="label">VM 2</text>
+  <rect x="455" y="185" width="210" height="38" class="box"/>
+  <text x="508" y="210" class="small">Guest OS</text>
+  <text x="465" y="250" class="small">Batch Worker</text>
+  <rect x="750" y="120" width="280" height="155" class="vm"/>
+  <text x="785" y="160" class="label">VM 3</text>
+  <rect x="785" y="185" width="210" height="38" class="box"/>
+  <text x="838" y="210" class="small">Guest OS</text>
+  <text x="795" y="250" class="small">Database</text>
+  <rect x="90" y="310" width="940" height="70" class="hypervisor"/>
+  <text x="455" y="354" class="label">Hypervisor</text>
+  <rect x="90" y="410" width="940" height="70" class="host"/>
+  <text x="410" y="454" class="label">Physical Server: CPU, Memory, Disk, Network</text>
+</svg>
