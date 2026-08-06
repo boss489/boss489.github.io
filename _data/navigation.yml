@@ -4,10 +4,15 @@
 #  url: /
  - title: Posts
    url: /posts/
- - title: AWS Backend
-   url: /aws-backend/
  - title: Categories
    url: /categories/
+   children:
+     - title: AWS Backend
+       url: /aws-backend/
+     - title: Kafka
+       url: /categories/#kafka
+     - title: Kubernetes
+       url: /categories/#kubernetes
  - title: Tags
    url: /tags/
 # - title: Recipes
