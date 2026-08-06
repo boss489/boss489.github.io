@@ -41,9 +41,13 @@
   }
 
   li {
-    display: inline-block;
+    display: block;
     position: relative;
     font-size: 0.75rem;
+
+    @include breakpoint($medium) {
+      display: inline-block;
+    }
   }
 
   a {
@@ -59,6 +63,10 @@
     margin: 0;
     padding: 0.25em;
     border-radius: $border-radius;
+
+    a {
+      padding-left: 1.5em;
+    }
 
     @include breakpoint($medium) {
       display: none;
@@ -76,6 +84,10 @@
 
     a {
       white-space: nowrap;
+
+      @include breakpoint($medium) {
+        padding-left: 0.75em;
+      }
     }
   }
 
