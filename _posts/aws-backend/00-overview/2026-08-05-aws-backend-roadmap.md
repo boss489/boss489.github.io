@@ -73,16 +73,18 @@ Cloud가 등장한 이유를 이해한다.
 
 ### 학습 내용
 
-- On-Premise
-- Virtual Machine
-- Hypervisor
-- Cloud Computing
-- IaaS / PaaS / SaaS
-- AWS Global Infrastructure
-- Region
-- Availability Zone
-- Edge Location
-- Shared Responsibility
+- [왜 Cloud가 등장했는가](/aws-backend/part-01/01-why-cloud/)
+- [On-Premise Infrastructure](/aws-backend/part-01/02-on-premise/)
+- [Virtualization](/aws-backend/part-01/03-virtualization/)
+- [Hypervisor](/aws-backend/part-01/04-hypervisor/)
+- [Cloud Computing](/aws-backend/part-01/05-cloud-computing/)
+- [Cloud Service Models](/aws-backend/part-01/06-cloud-service-model/)
+- [AWS 소개](/aws-backend/part-01/07-introduction-to-aws/)
+- [AWS Global Infrastructure](/aws-backend/part-01/08-global-infrastructure/)
+- [Region과 Availability Zone](/aws-backend/part-01/09-region-and-az/)
+- [Edge Network](/aws-backend/part-01/10-edge-network/)
+- [Shared Responsibility Model](/aws-backend/part-01/11-shared-responsibility/)
+- [Well-Architected Framework Preview](/aws-backend/part-01/12-well-architected-preview/)
 
 ---
 
@@ -114,14 +116,15 @@ AWS 서비스가 동작하는 네트워크 구조를 이해한다.
 
 ### 학습 내용
 
-- EC2
-- AMI
-- EBS
-- ENI
-- Linux
-- SSH
-- Docker
-- Systemd
+- [Compute Overview](/aws-backend/part-03/01-compute-overview/)
+- [EC2](/aws-backend/part-03/02-ec2/)
+- [AMI](/aws-backend/part-03/03-ami/)
+- [EBS](/aws-backend/part-03/04-ebs/)
+- [ENI](/aws-backend/part-03/05-eni/)
+- [Linux](/aws-backend/part-03/06-linux/)
+- [SSH](/aws-backend/part-03/07-ssh/)
+- [Docker](/aws-backend/part-03/08-docker/)
+- [Systemd](/aws-backend/part-03/09-systemd/)
 
 ---
 
@@ -133,14 +136,14 @@ AWS 서비스가 동작하는 네트워크 구조를 이해한다.
 
 ### 학습 내용
 
-- DNS
-- Route53
-- ALB
-- Target Group
-- Health Check
-- Auto Scaling
-- Session
-- Keep Alive
+- [Request Flow Overview](/aws-backend/part-04/01-request-flow-overview/)
+- [DNS](/aws-backend/part-04/02-dns/)
+- [Route 53](/aws-backend/part-04/03-route53/)
+- [ALB](/aws-backend/part-04/04-alb/)
+- [Target Group](/aws-backend/part-04/05-target-group/)
+- [Health Check](/aws-backend/part-04/06-health-check/)
+- [Auto Scaling](/aws-backend/part-04/07-auto-scaling/)
+- [Session and Keep Alive](/aws-backend/part-04/08-session-keep-alive/)
 
 ---
 
@@ -159,13 +162,13 @@ AWS에서 데이터베이스를 안정적으로 운영한다.
 
 ### 학습 내용
 
-- RDS
-- Aurora
-- Multi AZ
-- Read Replica
-- Backup
-- Restore
-- Failover
+- [Database Overview](/aws-backend/part-05/01-database-overview/)
+- [RDS](/aws-backend/part-05/02-rds/)
+- [Aurora](/aws-backend/part-05/03-aurora/)
+- [Multi AZ](/aws-backend/part-05/04-multi-az/)
+- [Read Replica](/aws-backend/part-05/05-read-replica/)
+- [Backup and Restore](/aws-backend/part-05/06-backup-restore/)
+- [Failover](/aws-backend/part-05/07-failover/)
 
 ---
 
@@ -177,13 +180,13 @@ Redis를 활용하여 성능을 향상시킨다.
 
 ### 학습 내용
 
-- Cache Aside
-- Write Through
-- TTL
-- Session
-- Distributed Lock
-- Pub/Sub
-- ElastiCache
+- [Cache Overview](/aws-backend/part-06/01-cache-overview/)
+- [Cache Aside](/aws-backend/part-06/02-cache-aside/)
+- [Write Through](/aws-backend/part-06/03-write-through/)
+- [TTL](/aws-backend/part-06/04-ttl/)
+- [Redis Session](/aws-backend/part-06/05-redis-session/)
+- [Distributed Lock](/aws-backend/part-06/06-distributed-lock/)
+- [Pub/Sub and ElastiCache](/aws-backend/part-06/07-pubsub-elasticache/)
 
 ---
 
@@ -195,13 +198,13 @@ S3 기반 파일 서비스를 이해한다.
 
 ### 학습 내용
 
-- Bucket
-- Object
-- Versioning
-- Lifecycle
-- Presigned URL
-- Multipart Upload
-- CloudFront
+- [Object Storage Overview](/aws-backend/part-07/01-object-storage-overview/)
+- [Bucket and Object](/aws-backend/part-07/02-bucket-object/)
+- [Versioning](/aws-backend/part-07/03-versioning/)
+- [Lifecycle](/aws-backend/part-07/04-lifecycle/)
+- [Presigned URL](/aws-backend/part-07/05-presigned-url/)
+- [Multipart Upload](/aws-backend/part-07/06-multipart-upload/)
+- [CloudFront](/aws-backend/part-07/07-cloudfront/)
 
 ---
 
@@ -213,14 +216,13 @@ Docker 기반 서비스를 운영한다.
 
 ### 학습 내용
 
-- Docker
-- Image
-- Container
-- ECR
-- ECS
-- Task
-- Service
-- Cluster
+- [Container Overview](/aws-backend/part-08/01-container-overview/)
+- [Docker Image](/aws-backend/part-08/02-docker-image/)
+- [Container Runtime](/aws-backend/part-08/03-container-runtime/)
+- [ECR](/aws-backend/part-08/04-ecr/)
+- [ECS Cluster](/aws-backend/part-08/05-ecs-cluster/)
+- [Task and Service](/aws-backend/part-08/06-task-service/)
+- [ECS Deployment](/aws-backend/part-08/07-ecs-deployment/)
 
 ---
 
@@ -232,14 +234,14 @@ EKS 기반 컨테이너 오케스트레이션을 이해한다.
 
 ### 학습 내용
 
-- Kubernetes
-- Pod
-- ReplicaSet
-- Deployment
-- Service
-- Ingress
-- ALB Controller
-- EKS
+- [Kubernetes Overview](/aws-backend/part-09/01-kubernetes-overview/)
+- [Pod](/aws-backend/part-09/02-pod/)
+- [ReplicaSet and Deployment](/aws-backend/part-09/03-replicaset-deployment/)
+- [Service](/aws-backend/part-09/04-service/)
+- [Ingress](/aws-backend/part-09/05-ingress/)
+- [ALB Controller](/aws-backend/part-09/06-alb-controller/)
+- [EKS](/aws-backend/part-09/07-eks/)
+- [ECS vs EKS](/aws-backend/part-09/08-ecs-vs-eks/)
 
 ---
 
@@ -251,11 +253,12 @@ Serverless 아키텍처를 이해한다.
 
 ### 학습 내용
 
-- Lambda
-- API Gateway
-- EventBridge
-- DynamoDB
-- Step Functions
+- [Serverless Overview](/aws-backend/part-10/01-serverless-overview/)
+- [Lambda](/aws-backend/part-10/02-lambda/)
+- [API Gateway](/aws-backend/part-10/03-api-gateway/)
+- [EventBridge](/aws-backend/part-10/04-eventbridge/)
+- [DynamoDB](/aws-backend/part-10/05-dynamodb/)
+- [Step Functions](/aws-backend/part-10/06-step-functions/)
 
 ---
 
@@ -274,16 +277,6 @@ Serverless 아키텍처를 이해한다.
 
 ### 학습 내용
 
-- CloudWatch
-- Logs
-- Metrics
-- Alarm
-- Dashboard
-- CloudTrail
-- X-Ray
-
-### 세부 챕터
-
 - [Monitoring Overview](/aws-backend/part-11/01-monitoring-overview/)
 - [CloudWatch Logs](/aws-backend/part-11/02-cloudwatch-logs/)
 - [CloudWatch Metrics](/aws-backend/part-11/03-cloudwatch-metrics/)
@@ -292,8 +285,6 @@ Serverless 아키텍처를 이해한다.
 - [CloudTrail](/aws-backend/part-11/06-cloudtrail/)
 - [X-Ray Distributed Tracing](/aws-backend/part-11/07-xray-distributed-tracing/)
 - [Spring Boot Observability](/aws-backend/part-11/08-spring-boot-observability/)
-- [Summary](/aws-backend/part-11/09-summary/)
-- [Interview](/aws-backend/part-11/10-interview/)
 
 ---
 
@@ -305,27 +296,14 @@ AWS 보안 모델을 이해한다.
 
 ### 학습 내용
 
-- IAM
-- User
-- Group
-- Role
-- Policy
-- STS
-- KMS
-- Secrets Manager
-
-### 세부 챕터
-
-- [Chapter 01. Security Overview](/aws-backend/part-12/01-security-overview/)
-- [Chapter 02. IAM User와 Group](/aws-backend/part-12/02-iam-user-group/)
-- [Chapter 03. IAM Role과 STS](/aws-backend/part-12/03-iam-role-sts/)
-- [Chapter 04. IAM Policy](/aws-backend/part-12/04-iam-policy/)
-- [Chapter 05. KMS](/aws-backend/part-12/05-kms/)
-- [Chapter 06. Secrets Manager](/aws-backend/part-12/06-secrets-manager/)
-- [Chapter 07. Spring Boot Security Integration](/aws-backend/part-12/07-spring-boot-security-integration/)
-- [Chapter 08. Security Operations](/aws-backend/part-12/08-security-operations/)
-- [Chapter 09. Part 12 Summary](/aws-backend/part-12/09-summary/)
-- [Chapter 10. Interview Questions](/aws-backend/part-12/10-interview/)
+- [Security Overview](/aws-backend/part-12/01-security-overview/)
+- [IAM User와 Group](/aws-backend/part-12/02-iam-user-group/)
+- [IAM Role과 STS](/aws-backend/part-12/03-iam-role-sts/)
+- [IAM Policy](/aws-backend/part-12/04-iam-policy/)
+- [KMS](/aws-backend/part-12/05-kms/)
+- [Secrets Manager](/aws-backend/part-12/06-secrets-manager/)
+- [Spring Boot Security Integration](/aws-backend/part-12/07-spring-boot-security-integration/)
+- [Security Operations](/aws-backend/part-12/08-security-operations/)
 
 ---
 
@@ -337,25 +315,14 @@ AWS 보안 모델을 이해한다.
 
 ### 학습 내용
 
-- GitHub Actions
-- CodeBuild
-- CodeDeploy
-- CodePipeline
-- Blue/Green
-- Rolling Update
-
-### 세부 챕터
-
-- [Chapter 01. CI/CD Overview](/aws-backend/part-13/01-cicd-overview/)
-- [Chapter 02. GitHub Actions](/aws-backend/part-13/02-github-actions/)
-- [Chapter 03. CodeBuild](/aws-backend/part-13/03-codebuild/)
-- [Chapter 04. CodePipeline](/aws-backend/part-13/04-codepipeline/)
-- [Chapter 05. CodeDeploy](/aws-backend/part-13/05-codedeploy/)
-- [Chapter 06. Rolling Deployment](/aws-backend/part-13/06-rolling-deployment/)
-- [Chapter 07. Blue/Green Deployment](/aws-backend/part-13/07-blue-green-deployment/)
-- [Chapter 08. Deployment Safety](/aws-backend/part-13/08-deployment-safety/)
-- [Chapter 09. Summary](/aws-backend/part-13/09-summary/)
-- [Chapter 10. Interview Questions](/aws-backend/part-13/10-interview/)
+- [CI/CD Overview](/aws-backend/part-13/01-cicd-overview/)
+- [GitHub Actions](/aws-backend/part-13/02-github-actions/)
+- [CodeBuild](/aws-backend/part-13/03-codebuild/)
+- [CodePipeline](/aws-backend/part-13/04-codepipeline/)
+- [CodeDeploy](/aws-backend/part-13/05-codedeploy/)
+- [Rolling Deployment](/aws-backend/part-13/06-rolling-deployment/)
+- [Blue Green Deployment](/aws-backend/part-13/07-blue-green-deployment/)
+- [Deployment Safety](/aws-backend/part-13/08-deployment-safety/)
 
 ---
 
@@ -367,16 +334,6 @@ AWS 비용을 최적화한다.
 
 ### 학습 내용
 
-- EC2
-- NAT Gateway
-- ALB
-- CloudFront
-- S3
-- Savings Plan
-- Reserved Instance
-
-### 세부 챕터
-
 - [비용 최적화 개요](/aws-backend/part-14/01-cost-overview/)
 - [비용 가시성](/aws-backend/part-14/02-cost-visibility/)
 - [컴퓨팅 비용 최적화](/aws-backend/part-14/03-compute-cost/)
@@ -385,8 +342,6 @@ AWS 비용을 최적화한다.
 - [CloudFront와 S3 비용](/aws-backend/part-14/06-cloudfront-s3-cost/)
 - [Savings Plans와 Reserved Instances](/aws-backend/part-14/07-savings-plans-reserved-instances/)
 - [FinOps 실천](/aws-backend/part-14/08-finops-practice/)
-- [Part 14 핵심 정리](/aws-backend/part-14/09-summary/)
-- [면접 질문](/aws-backend/part-14/10-interview/)
 
 ---
 
@@ -398,28 +353,15 @@ AWS 비용을 최적화한다.
 
 ### 학습 내용
 
-- ALB 502
-- ALB 503
-- EC2 장애
-- RDS 장애
-- Redis 장애
-- DNS 장애
-- Network 장애
-- 장애 분석 순서
-
-### 세부 챕터
-
-- [Troubleshooting 개요](/aws-backend/part-15/01-troubleshooting-overview/)
-- [ALB 502 장애](/aws-backend/part-15/02-alb-502/)
-- [ALB 503 장애](/aws-backend/part-15/03-alb-503/)
-- [Compute 장애](/aws-backend/part-15/04-compute-failure/)
-- [RDS 장애](/aws-backend/part-15/05-rds-failure/)
-- [Redis 장애](/aws-backend/part-15/06-redis-failure/)
-- [DNS 장애](/aws-backend/part-15/07-dns-failure/)
-- [Network 장애](/aws-backend/part-15/08-network-failure/)
+- [Troubleshooting Overview](/aws-backend/part-15/01-troubleshooting-overview/)
+- [ALB 502](/aws-backend/part-15/02-alb-502/)
+- [ALB 503](/aws-backend/part-15/03-alb-503/)
+- [Compute Failure](/aws-backend/part-15/04-compute-failure/)
+- [RDS Failure](/aws-backend/part-15/05-rds-failure/)
+- [Redis Failure](/aws-backend/part-15/06-redis-failure/)
+- [DNS Failure](/aws-backend/part-15/07-dns-failure/)
+- [Network Failure](/aws-backend/part-15/08-network-failure/)
 - [Incident Response](/aws-backend/part-15/09-incident-response/)
-- [Part 15 Summary](/aws-backend/part-15/10-summary/)
-- [Interview Questions](/aws-backend/part-15/11-interview/)
 
 ---
 
@@ -437,34 +379,17 @@ AWS 비용을 최적화한다.
 
 ### 학습 내용
 
-- 쇼핑몰 아키텍처
-- REST API
-- Batch
-- Kafka
-- Redis
-- Aurora
-- ECS
-- CloudFront
-- S3
-- Auto Scaling
-- Multi AZ
-- DR(Disaster Recovery)
-
-### 세부 챕터
-
-- [01. Design Requirements](/aws-backend/part-16/01-design-requirements/)
-- [02. Shopping Mall Architecture](/aws-backend/part-16/02-shopping-mall-architecture/)
-- [03. REST API Design](/aws-backend/part-16/03-rest-api-design/)
-- [04. Data Architecture](/aws-backend/part-16/04-data-architecture/)
-- [05. Cache Consistency](/aws-backend/part-16/05-cache-consistency/)
-- [06. Event-Driven Architecture](/aws-backend/part-16/06-event-driven-architecture/)
-- [07. Batch Architecture](/aws-backend/part-16/07-batch-architecture/)
-- [08. File Delivery Architecture](/aws-backend/part-16/08-file-delivery-architecture/)
-- [09. Scalability and High Availability](/aws-backend/part-16/09-scalability-high-availability/)
-- [10. Disaster Recovery](/aws-backend/part-16/10-disaster-recovery/)
-- [11. Architecture Review](/aws-backend/part-16/11-architecture-review/)
-- [12. Part 16 Summary](/aws-backend/part-16/12-summary/)
-- [13. Interview Questions](/aws-backend/part-16/13-interview/)
+- [Design Requirements](/aws-backend/part-16/01-design-requirements/)
+- [Shopping Mall Architecture](/aws-backend/part-16/02-shopping-mall-architecture/)
+- [REST API Design](/aws-backend/part-16/03-rest-api-design/)
+- [Data Architecture](/aws-backend/part-16/04-data-architecture/)
+- [Cache Consistency](/aws-backend/part-16/05-cache-consistency/)
+- [Event-Driven Architecture](/aws-backend/part-16/06-event-driven-architecture/)
+- [Batch Architecture](/aws-backend/part-16/07-batch-architecture/)
+- [File Delivery Architecture](/aws-backend/part-16/08-file-delivery-architecture/)
+- [Scalability and High Availability](/aws-backend/part-16/09-scalability-high-availability/)
+- [Disaster Recovery](/aws-backend/part-16/10-disaster-recovery/)
+- [Architecture Review](/aws-backend/part-16/11-architecture-review/)
 
 ---
 
