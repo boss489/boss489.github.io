@@ -41,4 +41,16 @@ last_modified_at: 2026-08-05T09:00:00+09:00
 5. Security Group이 ALB에서 애플리케이션 포트를 허용하는가?
 6. 애플리케이션이 해당 포트에서 실행 중인가?
 
+---
+
+# 상태 코드로 좁히기
+
+| 증상 | 먼저 볼 위치 |
+|---|---|
+| 도메인이 다른 IP를 반환 | DNS Record, TTL, Route 53 Alias |
+| ALB 4xx | Listener Rule, 애플리케이션 요청 검증 |
+| ALB 5xx | Target Group 상태, 포트, 애플리케이션 로그 |
+| 특정 Target만 실패 | Health Check 경로와 해당 인스턴스 |
+
+장애를 “ALB 문제”로 묶지 말고, 클라이언트·DNS·ALB·Target·애플리케이션 중 마지막으로 성공한 지점부터 확인한다.
 

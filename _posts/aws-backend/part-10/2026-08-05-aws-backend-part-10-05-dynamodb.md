@@ -30,6 +30,18 @@ DynamoDB는 AWS의 관리형 NoSQL 데이터베이스다.
 
 ---
 
+# 상세 학습 목차
+
+- [Part 1. 핵심 개념과 Key]({{ '/aws-backend/part-10/05-dynamodb/01-concepts-and-keys/' | relative_url }})
+- [Part 2. Access Pattern과 Single Table Design]({{ '/aws-backend/part-10/05-dynamodb/02-access-patterns/' | relative_url }})
+- [Part 3. DynamoDBMapper, Repository, 쓰기 동시성]({{ '/aws-backend/part-10/05-dynamodb/03-mapper-and-concurrency/' | relative_url }})
+- [Part 4. 성능, 비용, Capacity, 운영]({{ '/aws-backend/part-10/05-dynamodb/04-capacity-and-operations/' | relative_url }})
+- [Part 5. 고급 데이터 모델링 패턴]({{ '/aws-backend/part-10/05-dynamodb/05-advanced-modeling/' | relative_url }})
+- [Part 6. AWS SDK v2 Enhanced Client]({{ '/aws-backend/part-10/05-dynamodb/06-enhanced-client/' | relative_url }})
+- [Part 7. 종합 설계, 코드 리뷰, 실전 문제]({{ '/aws-backend/part-10/05-dynamodb/07-practice/' | relative_url }})
+
+---
+
 # Key 설계
 
 DynamoDB는 Key 설계가 중요하다.
@@ -54,5 +66,4 @@ RDB처럼 자유롭게 Join하는 방식이 아니다.
 DynamoDB는 조회 패턴 중심으로 설계한다.
 
 RDB 모델을 그대로 옮기면 성능과 비용 문제가 생길 수 있다.
-
 

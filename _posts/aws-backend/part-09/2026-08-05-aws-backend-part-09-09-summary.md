@@ -39,4 +39,17 @@ last_modified_at: 2026-08-05T09:00:00+09:00
 - Ingress는 Controller가 있어야 실제로 동작한다.
 - ECS보다 EKS 운영 복잡도가 높다.
 
+---
+
+# 트래픽과 상태의 분리
+
+| 역할 | Kubernetes 리소스 |
+|---|---|
+| 원하는 Pod 수와 배포 이력 | Deployment |
+| 실제 실행 중인 컨테이너 | Pod |
+| 내부의 안정적인 호출 주소 | Service |
+| 외부 HTTP 라우팅 규칙 | Ingress |
+| AWS ALB 생성·동기화 | ALB Controller |
+
+Pod가 실행 중이어도 readiness가 실패하면 Service의 대상이 되지 않는다. “Pod 상태”와 “트래픽 수신 가능 상태”를 구분하는 것이 운영의 시작이다.
 

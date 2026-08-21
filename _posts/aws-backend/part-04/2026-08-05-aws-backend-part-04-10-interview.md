@@ -50,4 +50,15 @@ Target Group Health Check, 애플리케이션 포트, Security Group, 애플리�
 
 특정 서버에 부하가 몰릴 수 있고, 서버 장애 시 세션이 사라질 수 있습니다.
 
+## Listener와 Rule의 차이는 무엇인가요?
+
+Listener는 ALB가 특정 포트와 프로토콜에서 요청을 받는 입구입니다. Rule은 Host, Path, Header 같은 조건에 따라 그 요청을 어느 Target Group으로 보낼지 결정합니다.
+
+## ALB의 502와 503은 어떻게 접근하나요?
+
+502는 대상 애플리케이션과의 연결 또는 응답 형식을, 503은 요청을 보낼 healthy Target이 있는지를 먼저 확인합니다. 둘 다 Target Group 상태와 애플리케이션 로그를 함께 봅니다.
+
+## Auto Scaling만 설정하면 트래픽 대응이 끝나나요?
+
+아닙니다. 새 인스턴스가 기동되어 Health Check를 통과하기까지의 시간, 최소 인스턴스 수, DB·Redis 같은 하위 의존성의 한계도 함께 고려해야 합니다.
 

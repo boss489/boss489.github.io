@@ -36,4 +36,15 @@ Image, CPU, Memory, Port, Environment, Log 설정 등이 들어갑니다.
 
 Image Pull 권한, Task Definition, 컨테이너 포트, Target Group, Health Check, 애플리케이션 로그를 확인합니다.
 
+## Fargate와 EC2 Launch Type의 차이는 무엇인가요?
+
+Fargate는 ECS가 실행할 서버 용량을 관리하므로 운영 부담이 적습니다. EC2 Launch Type은 인스턴스와 컨테이너 밀도를 직접 조절할 수 있지만 서버 운영 책임이 추가됩니다.
+
+## Task가 실행 중인데 Service 배포가 실패할 수 있나요?
+
+가능합니다. Task가 시작되어도 Target Group Health Check를 통과하지 못하면 Service는 healthy 상태로 보지 않습니다. 애플리케이션 포트, Health Check 경로, 기동 시간을 확인합니다.
+
+## 컨테이너에 상태를 두면 왜 문제가 되나요?
+
+Task는 배포·스케일링·장애 복구 중 언제든 교체될 수 있습니다. 파일, 세션, 업로드 같은 상태는 S3·Redis·DB처럼 Task 밖의 저장소에 둬야 합니다.
 

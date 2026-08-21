@@ -22,14 +22,16 @@ last_modified_at: 2026-08-05T09:00:00+09:00
 
 # 학습 내용
 
-- IAM
-- User
-- Group
-- Role
-- Policy
-- STS
-- KMS
-- Secrets Manager
+- [Chapter 01. Security Overview](/aws-backend/part-12/01-security-overview/)
+- [Chapter 02. IAM User와 Group](/aws-backend/part-12/02-iam-user-group/)
+- [Chapter 03. IAM Role과 STS](/aws-backend/part-12/03-iam-role-sts/)
+- [Chapter 04. IAM Policy](/aws-backend/part-12/04-iam-policy/)
+- [Chapter 05. KMS](/aws-backend/part-12/05-kms/)
+- [Chapter 06. Secrets Manager](/aws-backend/part-12/06-secrets-manager/)
+- [Chapter 07. Spring Boot Security Integration](/aws-backend/part-12/07-spring-boot-security-integration/)
+- [Chapter 08. Security Operations](/aws-backend/part-12/08-security-operations/)
+- [Chapter 09. Part 12 Summary](/aws-backend/part-12/09-summary/)
+- [Chapter 10. Interview Questions](/aws-backend/part-12/10-interview/)
 
 ---
 
